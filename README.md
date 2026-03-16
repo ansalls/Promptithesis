@@ -1,10 +1,10 @@
-# promptithesis
+# Promptithesis
 
 A curated collection of high-signal prompts for AI-assisted software development workflows.
 
 ## Purpose
 
-`promptithesis` gathers reusable, composable prompts that reliably produce valuable results when working with AI coding agents. Each prompt is designed to be actionable, iterative, and thorough.
+`Promptithesis` gathers reusable, composable prompts that reliably produce valuable results when working with AI coding agents. Each prompt is designed to be actionable, iterative, and thorough.
 
 ---
 
@@ -44,11 +44,11 @@ Review the tests and make sure they are meaningful and representative.
 
 ### Documentation
 
-Create a .AGENTS file for this repo laying out the requirements, build hints, etc.
+Create an .AGENTS file for this repo laying out the requirements, build hints, etc.
 
 ---
 
-Update the readme to reflect the current state of the project.
+Update the README to reflect the current state of the project.
 
 ---
 
