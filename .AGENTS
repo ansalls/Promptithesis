@@ -1,0 +1,49 @@
+# .AGENTS — Agent Guidance for promptithesis
+
+## Project Overview
+
+`promptithesis` is a documentation-only repository. It collects and organizes
+high-signal prompts for AI-assisted software development workflows. There is no
+application source code, runtime, or build system.
+
+## Repository Structure
+
+```
+promptithesis/
+├── README.md          # Primary prompt collection and project overview
+├── MANUAL_TESTS.md    # Detailed manual test cases for end-to-end verification
+└── .AGENTS            # This file — guidance for AI agents working on the repo
+```
+
+## Goals
+
+- Maintain a clean, well-organized collection of reusable prompts.
+- Keep prompts generic enough to apply across many projects and languages.
+- Group prompts into logical sections (Code Review, Architecture, Testing, etc.).
+- Ensure all documentation is accurate, consistent, and up to date.
+
+## Contribution Guidelines for Agents
+
+1. **README.md** is the canonical source of truth for the prompt collection.
+   When adding new prompts, follow the existing Markdown heading and blockquote
+   format (`>` for the primary prompt, `> >` for the follow-up action prompt).
+2. **MANUAL_TESTS.md** describes how a human or agent should manually verify
+   the repository's content is correct and complete. Keep it updated whenever
+   new sections are added to the README.
+3. **Do not introduce source code, dependencies, or build artifacts** unless
+   the project scope explicitly changes to include them.
+4. All Markdown files should pass standard Markdown linting (consistent heading
+   levels, blank lines around headings/lists/fences, etc.).
+
+## Linting & Validation
+
+There is no automated CI pipeline at this time. Manual validation steps are
+described in `MANUAL_TESTS.md`.
+
+If a linter is introduced in the future, add it here along with the command to
+run it (e.g., `markdownlint **/*.md`).
+
+## Versioning
+
+This repository does not use semantic versioning. Track progress via Git
+commits and PR descriptions.
