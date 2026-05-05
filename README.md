@@ -1,12 +1,18 @@
 # Promptithesis
 
-A curated collection of high-signal prompts for AI-assisted software development workflows.
+> A curated collection of high-signal prompts for AI-assisted software development workflows.
 
-## Purpose
+## Summary
 
 `Promptithesis` gathers reusable, composable prompts that reliably produce valuable results when working with AI coding agents. Each prompt is designed to be actionable, iterative, and thorough.
 
----
+## Capabilities
+
+- **Code review prompts** — general, goal-oriented, and adversarial code reviews paired with implementation follow-through.
+- **Architecture review prompts** — sanity-check application architecture and surface refactors worth doing now.
+- **Testing prompts** — drive coverage to 100% with a gate, and audit existing tests for meaning and representativeness.
+- **Documentation prompts** — generate `AGENTS.md` scaffolding and refresh README content to match the current state of a project.
+- **End-to-end verification prompts** — produce comprehensive manual test plans suitable for a user agent to execute against a production deployment.
 
 ## Prompt Collection
 
@@ -16,6 +22,7 @@ A curated collection of high-signal prompts for AI-assisted software development
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
 ---
+
 1. Review this code base and suggest any fixes or enhancements, particularly those necessary to service the goals of the project.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
@@ -27,6 +34,7 @@ A curated collection of high-signal prompts for AI-assisted software development
 ---
 
 ### Architecture
+
 1. Review the architecture of the application and see if it still makes sense, or if it would be beneficial to modify it now before moving further.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
@@ -60,4 +68,4 @@ Write a detailed list of manual tests that will ensure all endpoint behavior is 
 
 ## Contributing
 
-Feel free to open a PR to add prompts that have proven useful in your own workflows. I'll give them a run on my next time around and merge them if they prove useful. Please follow the existing format and group prompts under the most relevant section. Do feel free to add additional sections if the suggestions don't obviously group to an existing section. 
+Feel free to open a PR to add prompts that have proven useful in your own workflows. I'll give them a run on my next time around and merge them if they prove useful. Please follow the existing format and group prompts under the most relevant section. Do feel free to add additional sections if the suggestions don't obviously group to an existing section.
