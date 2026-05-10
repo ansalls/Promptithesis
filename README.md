@@ -18,16 +18,31 @@
 
 ### Code Review
 
+<!-- promptithesis
+use-cases: terminal
+tags: code-review, lint, best-practices, implementation
+owner: promptithesis
+-->
 1. Perform a code review of this repo. Highlight any linter issues, or deviations from best practices.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
 ---
 
+<!-- promptithesis
+use-cases: terminal
+tags: code-review, project-goals, enhancements, implementation
+owner: promptithesis
+-->
 1. Review this code base and suggest any fixes or enhancements, particularly those necessary to service the goals of the project.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
 ---
 
+<!-- promptithesis
+use-cases: terminal
+tags: code-review, adversarial, risk, implementation
+owner: promptithesis
+-->
 1. Perform an adversarial code review of this repo.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
@@ -35,6 +50,11 @@
 
 ### Architecture
 
+<!-- promptithesis
+use-cases: terminal
+tags: architecture, refactor, technical-debt, implementation
+owner: promptithesis
+-->
 1. Review the architecture of the application and see if it still makes sense, or if it would be beneficial to modify it now before moving further.
 2. Create a todo list of these ideas and implement all the suggested improvements.
 
@@ -42,26 +62,51 @@
 
 ### Testing
 
+<!-- promptithesis
+use-cases: terminal
+tags: testing, coverage, quality-gate
+owner: promptithesis
+-->
 Review test coverage and ensure we are at 100%, and gate at this threshold.
 
 ---
 
+<!-- promptithesis
+use-cases: terminal
+tags: testing, test-quality, representativeness
+owner: promptithesis
+-->
 Review the tests and make sure they are meaningful and representative.
 
 ---
 
 ### Documentation
 
-Create an .AGENTS file for this repo laying out the requirements, build hints, etc.
+<!-- promptithesis
+use-cases: terminal
+tags: documentation, agents-md, repository-guidance
+owner: promptithesis
+-->
+Create an AGENTS.md file for this repo laying out the requirements, build hints, and agent workflow notes.
 
 ---
 
+<!-- promptithesis
+use-cases: terminal
+tags: documentation, readme, current-state
+owner: promptithesis
+-->
 Update the README to reflect the current state of the project.
 
 ---
 
 ### End-to-End Verification
 
+<!-- promptithesis
+use-cases: terminal
+tags: qa, e2e, manual-testing, verification
+owner: promptithesis
+-->
 Write a detailed list of manual tests that will ensure all endpoint behavior is verified as valid from a full end-to-end perspective for a production user. This should be detailed enough for a user agent to perform and validate, and fully comprehensive of all supported behaviors and functions.
 
 ---
